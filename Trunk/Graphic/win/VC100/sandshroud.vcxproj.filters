@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{7f9b11ee-c3f6-43c7-9d3e-627f2ac0a6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Launcher\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Launcher\Resource Files\MainForm">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DLL Loader">
+      <UniqueIdentifier>{7a7175f8-9b3d-4079-9475-2f034ed1b886}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="../../src/sandshroud/StdAfx.cpp" />
+    <ClCompile Include="..\..\src\sandshroud\MainForm.cpp">
+      <Filter>Launcher\Resource Files\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="../../src/sandshroud/main.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="../../src/sandshroud/AssemblyInfo.cpp">
+      <Filter>Launcher\Resource Files\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sandshroud\Master.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sandshroud\SystemManager.cpp">
+      <Filter>DLL Loader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\sandshroud\MainForm.h">
+      <Filter>Launcher\Resource Files\MainForm</Filter>
+    </ClInclude>
+    <ClInclude Include="../../src/sandshroud/StdAfx.h" />
+    <ClInclude Include="..\..\src\sandshroud\resource.h">
+      <Filter>Launcher\Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sandshroud\Master.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sandshroud\SystemManager.h">
+      <Filter>DLL Loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="../../src/sandshroud/app.rc">
+      <Filter>Launcher\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="../../src/sandshroud/app.ico">
+      <Filter>Launcher\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\src\sandshroud\MainForm.resx">
+      <Filter>Launcher\Resource Files\MainForm</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WoW-V Creator", "VC100\sandshroud.vcxproj", "{EDD3F7E8-E055-47F7-A2FE-3954C84AFFEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArcEmuv2802", "VC100\ArcEmuV2802.vcxproj", "{FAA6A79F-079F-428F-80CC-D8D2F8E841BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SandshroudV1400", "VC100\SandshroudV1400.vcxproj", "{70F00C3C-64B4-4160-B366-D9C65B558140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD3F7E8-E055-47F7-A2FE-3954C84AFFEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDD3F7E8-E055-47F7-A2FE-3954C84AFFEB}.Debug|Win32.Build.0 = Debug|Win32
+		{EDD3F7E8-E055-47F7-A2FE-3954C84AFFEB}.Release|Win32.ActiveCfg = Release|Win32
+		{EDD3F7E8-E055-47F7-A2FE-3954C84AFFEB}.Release|Win32.Build.0 = Release|Win32
+		{FAA6A79F-079F-428F-80CC-D8D2F8E841BE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FAA6A79F-079F-428F-80CC-D8D2F8E841BE}.Debug|Win32.Build.0 = Debug|Win32
+		{FAA6A79F-079F-428F-80CC-D8D2F8E841BE}.Release|Win32.ActiveCfg = Release|Win32
+		{FAA6A79F-079F-428F-80CC-D8D2F8E841BE}.Release|Win32.Build.0 = Release|Win32
+		{70F00C3C-64B4-4160-B366-D9C65B558140}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70F00C3C-64B4-4160-B366-D9C65B558140}.Debug|Win32.Build.0 = Debug|Win32
+		{70F00C3C-64B4-4160-B366-D9C65B558140}.Release|Win32.ActiveCfg = Release|Win32
+		{70F00C3C-64B4-4160-B366-D9C65B558140}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

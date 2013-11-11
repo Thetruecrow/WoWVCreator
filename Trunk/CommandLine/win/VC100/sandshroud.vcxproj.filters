@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\sandshroud\StdAfx.cpp" />
+    <ClCompile Include="..\..\src\sandshroud\Main.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sandshroud\Master.cpp">
+      <Filter>Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sandshroud\SystemManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\sandshroud\resource.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sandshroud\StdAfx.h" />
+    <ClInclude Include="..\..\src\sandshroud\Master.h">
+      <Filter>Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sandshroud\SystemManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Launcher">
+      <UniqueIdentifier>{9dabad51-02a9-4b39-a5b7-3142a10e111c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\sandshroud\app.ico">
+      <Filter>Launcher</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\src\sandshroud\app.rc">
+      <Filter>Launcher</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
